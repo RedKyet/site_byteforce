@@ -53,4 +53,4 @@ jobs:
           app-name: 'ByteForceSite02'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F8DA7C2E5E28463AADC207811A4AE835 }}
-          package: ./site
+          package: .
